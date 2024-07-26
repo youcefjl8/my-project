@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Does Doef</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="carvid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="brand">Does Doef</a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="index1.html" class="nav-link">Shopping Cart</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Basket</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <img
+        class="pageLogo"
+        src="https://scontent.ftun4-2.fna.fbcdn.net/v/t1.15752-9/450925049_1020637176360768_4892321560624265425_n.png?_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9nhARjkOlNEQ7kNvgHduCpc&_nc_ht=scontent.ftun4-2.fna&oh=03_Q7cD1QEvPLSKlujo8QO2kZphrsIgKQxATUnCt-KGguokVeV0zg&oe=66C7520A"
+        alt="pageLogo"
+      />
+      <form id="signInForm">
+        <h2>Sign In</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Sign In</button>
+        <p id="message"></p>
+      </form>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
